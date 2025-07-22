@@ -201,11 +201,13 @@
 
 
 ## Step 7: MCP 로그 확인하여 Atlassian MCP 서버와의 연결 확인 
-- VSCode 왼편의 'Extension' 버튼을 클릭하고, 밑으로 스크롤 다운하여 MCP MCP 로그를 확인합니다. <br>
+- VSCode 왼편의 'Extension' 버튼을 클릭하고, 밑으로 스크롤 다운하여 `mcp-atlassian` 부분으로 이동합니다. <br>
  <img src="./img/16.png" width="60"> <br>
  <img src="./img/31.png" width="400"> <br>
+
+- `mcp-atlassian`에서 오른 마우스를 클릭하고 'Show Output'을 선택합니다. <br>
  <img src="./img/32.png" width="400"> <br>
- <img src="./img/33.png" width="400"> <br>
+ <img src="./img/33.png" width="600"> <br>
 
 - 사용가능한 Tool 확인
 	- `confluence_search`: Search Confluence content using CQL
