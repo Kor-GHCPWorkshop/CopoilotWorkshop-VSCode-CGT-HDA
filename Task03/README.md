@@ -45,83 +45,83 @@
 	- 예시로 제공된 파일을 참고하여, 프로젝트에 맞는 지침을 작성합니다.
 	- [copilot-instructions예](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/custom-instructions/adding-repository-custom-instructions-for-github-copilot?tool=vscode#repository-custom-instructions-example) <br>
 
-````markdown
-# Project Overview
+	````markdown
+	# Project Overview
 
-This project is a web application that allows users to manage their tasks and to-do lists. It is built using React and Node.js, and uses MongoDB for data storage.
+	This project is a web application that allows users to manage their tasks and to-do lists. It is built using React and Node.js, and uses MongoDB for data storage.
 
-## Folder Structure
+	## Folder Structure
 
-- `/src`: Contains the source code for the frontend.
-- `/server`: Contains the source code for the Node.js backend.
-- `/docs`: Contains documentation for the project, including API specifications and user guides.
+	- `/src`: Contains the source code for the frontend.
+	- `/server`: Contains the source code for the Node.js backend.
+	- `/docs`: Contains documentation for the project, including API specifications and user guides.
 
-## Libraries and Frameworks
+	## Libraries and Frameworks
 
-- React and Tailwind CSS for the frontend.
-- Node.js and Express for the backend.
-~	- MongoDB for data storage.
+	- React and Tailwind CSS for the frontend.
+	- Node.js and Express for the backend.
+	- MongoDB for data storage.
 
-## Coding Standards
+	## Coding Standards
 
-- Use semicolons at the end of each statement.
-- Use single quotes for strings.
-- Use function based components in React.
-- Use arrow functions for callbacks.
+	- Use semicolons at the end of each statement.
+	- Use single quotes for strings.
+	- Use function based components in React.
+	- Use arrow functions for callbacks.
 
-## UI guidelines
+	## UI guidelines
 
-- A toggle is provided to switch between light and dark mode.
-- Application should have a modern and clean design.
-```
+	- A toggle is provided to switch between light and dark mode.
+	- Application should have a modern and clean design.
+	````
 
 
-  - <참고> VS Code의 설정 메뉴에서 관련 설정 <br>
-	<img src="img/01.png" width="600"> <br>
-	<img src="img/02.png" width="800"><br>
+- <참고> VS Code의 설정 메뉴에서 관련 설정 <br>
+<img src="img/01.png" width="600"> <br>
+<img src="img/02.png" width="800"><br>
 
-	### 1-2. `.instructions.md` 파일 생성
-	- 특정 작업에 대한 사용자 정의 지침을 저장하기 위해 하나 이상의 `.instructions.md` 파일을 생성할 수 있습니다. 예를 들어, 다양한 프로그래밍 언어, 프레임워크 또는 프로젝트 유형에 대한 지침 파일을 생성할 수 있습니다. VS Code는 모든 채팅 요청에 지침 파일을 자동으로 추가하거나, 특정 파일에 대해 지침이 자동으로 적용되도록 지정할 수 있습니다. 또는 채팅 프롬프트에 지침 파일을 수동으로 첨부할 수도 있습니다.
-	- Workspace 또는 User 프로필에 하나 이상의 지침 파일을 생성하여 사용할 수 있습니다.
-	
-	- 워크스페이스 지침 파일: 워크스페이스 내에서만 사용할 수 있으며, 워크스페이스의 .github/instructions 폴더에 저장됩니다.
-	- User 프로필 지침 파일: 여러 워크스페이스에서 사용할 수 있으며, 현재 VS Code 프로필에 저장됩니다.
-	
-	- Instructions 파일 구조
-	- 헤더 (선택사항)
-		- description: 지침 파일에 대한 설명을 작성합니다. Chat view에서 마우스를 올리면 이 내용이 표시됩니다.
-		- applyTo: 지침 파일이 적용되는 파일을 지정합니다. glob 패턴을 사용하여 특정 파일에만 적용할 수 있습니다.
-		- 예시: 
-		```markdown
-		# My Custom Instructions
-		description: This file contains custom instructions for my project.
-		applyTo: '**/*.py'
-		```		
+### 1-2. `.instructions.md` 파일 생성
+- 특정 작업에 대한 사용자 정의 지침을 저장하기 위해 하나 이상의 `.instructions.md` 파일을 생성할 수 있습니다. 예를 들어, 다양한 프로그래밍 언어, 프레임워크 또는 프로젝트 유형에 대한 지침 파일을 생성할 수 있습니다. VS Code는 모든 채팅 요청에 지침 파일을 자동으로 추가하거나, 특정 파일에 대해 지침이 자동으로 적용되도록 지정할 수 있습니다. 또는 채팅 프롬프트에 지침 파일을 수동으로 첨부할 수도 있습니다.
+- Workspace 또는 User 프로필에 하나 이상의 지침 파일을 생성하여 사용할 수 있습니다.
 
-	- Body
-		- 마크 다운 형식의 자연어로 작성합니다. Heading, Lists, Code blocks 등을 사용하여 지침을 작성합니다.
-		- 다른 instructions 파일을 링크로 참조할 수 있습니다. 
+- 워크스페이스 지침 파일: 워크스페이스 내에서만 사용할 수 있으며, 워크스페이스의 .github/instructions 폴더에 저장됩니다.
+- User 프로필 지침 파일: 여러 워크스페이스에서 사용할 수 있으며, 현재 VS Code 프로필에 저장됩니다.
 
-	- [instructions 파일 예시](https://code.visualstudio.com/docs/copilot/copilot-customization#_custom-instructions-examples) <br>	  
+- Instructions 파일 구조
+- 헤더 (선택사항)
+	- description: 지침 파일에 대한 설명을 작성합니다. Chat view에서 마우스를 올리면 이 내용이 표시됩니다.
+	- applyTo: 지침 파일이 적용되는 파일을 지정합니다. glob 패턴을 사용하여 특정 파일에만 적용할 수 있습니다.
+	- 예시: 
+	```markdown
+	# My Custom Instructions
+	description: This file contains custom instructions for my project.
+	applyTo: '**/*.py'
+	```		
 
-	- Default로 .github/instructions 디렉토리를 사용하고, VS Code의 설정 메뉴에서 사용자가 원하는 디렉토리를 추가 지정할 수 있습니다. <br>
-		<img src="img/03.png" width="600"> <br>
+- Body
+	- 마크 다운 형식의 자연어로 작성합니다. Heading, Lists, Code blocks 등을 사용하여 지침을 작성합니다.
+	- 다른 instructions 파일을 링크로 참조할 수 있습니다. 
 
-	### 1-3. VS Code 설정 : settings.json
-	- VS Code의 설정 메뉴에서 아래 3가지 설정을 통해, Custom instructions 파일을 지정할 수 있습니다. 
-	- "text", 혹은 "file"을 지정할 수 있습니다. 
+- [instructions 파일 예시](https://code.visualstudio.com/docs/copilot/copilot-customization#_custom-instructions-examples) <br>	  
 
-	- ** 이전 VS Code의 설정에서 `codeGeneration`과 `testGeneration` 설정을 VS Code 1.102 버전부터 deprecated 되었습니다. 
+- Default로 .github/instructions 디렉토리를 사용하고, VS Code의 설정 메뉴에서 사용자가 원하는 디렉토리를 추가 지정할 수 있습니다. <br>
+	<img src="img/03.png" width="600"> <br>
 
-	| Instruction 유형                | 설정 이름                                           |
-	|---------------------------------|----------------------------------------------------|
-	| 코드 리뷰                       | `github.copilot.chat.reviewSelection.instructions` |
-	| 커밋 메시지 생성                | `github.copilot.chat.commitMessageGeneration.instructions` |
-	| 풀 리퀘스트 제목 및 설명 생성   | `github.copilot.chat.pullRequestDescriptionGeneration.instructions` |
-	| 코드 생성 (Deprecated)          | `github.copilot.chat.codeGeneration.instructions` |
-	| 테스트 생성 (Deprecated)        | `github.copilot.chat.testGeneration.instructions` |
+### 1-3. VS Code 설정 : settings.json
+- VS Code의 설정 메뉴에서 아래 3가지 설정을 통해, Custom instructions 파일을 지정할 수 있습니다. 
+- "text", 혹은 "file"을 지정할 수 있습니다. 
 
-	- [설정예시](https://code.visualstudio.com/docs/copilot/copilot-customization#_specify-custom-instructions-in-settings) <br>
+- ** 이전 VS Code의 설정에서 `codeGeneration`과 `testGeneration` 설정을 VS Code 1.102 버전부터 deprecated 되었습니다. 
+
+| Instruction 유형                | 설정 이름                                           |
+|---------------------------------|----------------------------------------------------|
+| 코드 리뷰                       | `github.copilot.chat.reviewSelection.instructions` |
+| 커밋 메시지 생성                | `github.copilot.chat.commitMessageGeneration.instructions` |
+| 풀 리퀘스트 제목 및 설명 생성   | `github.copilot.chat.pullRequestDescriptionGeneration.instructions` |
+| 코드 생성 (Deprecated)          | `github.copilot.chat.codeGeneration.instructions` |
+| 테스트 생성 (Deprecated)        | `github.copilot.chat.testGeneration.instructions` |
+
+- [설정예시](https://code.visualstudio.com/docs/copilot/copilot-customization#_specify-custom-instructions-in-settings) <br>
 
 
 ## Step 2: Custom instructions 작성법 및 권고 
