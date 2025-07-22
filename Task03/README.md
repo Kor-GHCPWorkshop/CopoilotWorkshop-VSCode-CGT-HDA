@@ -29,7 +29,7 @@
 - **[Custom instructions란](https://code.visualstudio.com/docs/copilot/copilot-customization)** 
   - 일반적인 가이드라인이나 규칙을 정의하여 코드 생성, 코드 리뷰 수행, 또는 커밋 메시지 생성과 같은 작업을 수행합니다. Custom instructions는 AI가 작업을 수행해야 하는 조건(작업이 어떻게 수행되어야 하는지)을 설명합니다.
   - Custom instructions는 다양한 형태로 작성할 수 있습니다. <br>
-  - 아래 표는 Custom instructions를 작성할 수 있는 방법을 정리한 것입니다. <br>
+  - VS Code의 설정 메뉴에서 아래 3가지 설정을 통해, Custom instructions 파일을 지정할 수 있습니다. 아래 표는 Custom instructions를 작성할 수 있는 방법을 정리한 것입니다. <br>
 
     | Custom instructions 유형 | 설명 |
 	|-|-|
@@ -108,7 +108,6 @@
 		<img src="img/03.png" width="600"> <br>
 
 	### 1-3. VS Code 설정 : settings.json
-	- VS Code의 설정 메뉴에서 아래 3가지 설정을 통해, Custom instructions 파일을 지정할 수 있습니다. 
 	- "text", 혹은 "file"을 지정할 수 있습니다. 
 
 	- ** 이전 VS Code의 설정에서 `codeGeneration`과 `testGeneration` 설정을 VS Code 1.102 버전부터 deprecated 되었습니다. 
