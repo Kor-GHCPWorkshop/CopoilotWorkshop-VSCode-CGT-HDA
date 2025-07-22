@@ -7,15 +7,15 @@
 - VS Code를 활용합니다.
   * 다른 IDE도구 (IntelliJ IDEA, Android Studio등)에서, VS Code와 기능적인 차이가 있을 수 있어, 지원되지 않는 실습예가 있을 수 있습니다.
   * 본 워크샵에 보기로 주어진 화면 캡쳐와, 참여하시는 분들이 보시는 메뉴가 다를 수 있습니다. 
-  * 이유는, GitHub Copilot의 기능이나, VS Code의 기능이 업데이트 되어, 메뉴의 위치나 기능이이 변경되었을 수 있습니다.
+  * 이유는, GitHub Copilot의 기능이나, VS Code의 기능이 업데이트 되어, 메뉴의 위치나 기능이 변경되었을 수 있습니다.
   * 또, 각 기업의 관리자 설정에서 기업의 정책에 따라 허용된 기능이 다를 수 있습니다. 
 
 - GitHub Copilot 플러그인을 설치하고, GitHub Copilot Business 라이센스가 있는 계정으로 로그인하여 사용할 수 있는 상태여야 합니다.
 - VS Code 및 GitHub Copilot 플러그인은 **최신 버전으로 업데이트 되어 있어야 합니다.**
 
   ### 언어 및 빌드
-  C, CMake, SQLite3 Amalgamation 데이터베이스, Google Test
-  [VS Code에서 C/C++ Extension Pack을 설치합니다.](https://code.visualstudio.com/docs/cpp/config-mingw)
+  - C, CMake, SQLite3 Amalgamation 데이터베이스, Google Test
+  - [VS Code에서 C/C++ Extension Pack을 설치합니다.](https://code.visualstudio.com/docs/cpp/config-mingw)
 
 ## 설명: GitHub Copilot 미리보기
  - GitHub Copilot의 기본적인 내용에 대해 자료를 통해 설명 드립니다. 
