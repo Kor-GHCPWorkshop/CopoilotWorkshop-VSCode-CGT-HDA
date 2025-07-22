@@ -58,6 +58,6 @@
 - Copilot Chat에 추가할 수 있는 다양한 컨텍스트들에 대해 확인합니다. 
 - Copilot을 활용해 Commit message를 자동 생성합니다.
 
-## [Task 7](/Task08/README.md): MCP (Model Context Protocol) 활용 실습
+## [Task 7](/Task07/README.md): MCP (Model Context Protocol) 활용 실습
  - VS Code에서 Model Context Protocol 서버를 설정하고, 활용해 봅니다.
 
