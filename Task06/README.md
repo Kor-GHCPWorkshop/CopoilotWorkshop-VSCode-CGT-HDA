@@ -6,7 +6,6 @@
 - Copilot을 활용해 Commit message를 자동 생성합니다.
 
 ## 목표:
-- prompt 파일을 생성하여, 활용 방법을 실습합니다.
 - 효율적인 프롬프트 작성과 컨텍스트 활용을 통해 Copilot을 활용하는 방법을 익힙니다.
 - Copilot Chat에 추가할 수 있는 다양한 컨텍스트들에 대해 확인합니다. 
 - Commit message 자동 생성 기능을 사용해 보고, Custom instruction을 제공하여, 원하는 형태로 commit message를 제안받아 봅니다. 
@@ -96,7 +95,7 @@ GitHub Copilot Chat은 다양한 코딩 관련 프롬프트를 처리하여 대�
   <img src="img/10.png" width="600"> <br>
   <img src="img/11.png" width="400"> <br>
 
-- 마찬가지로, @githubpr 은 'GitHub Pull Requests' 확장 프로그램에서 제공하는 Chat participant입니다. 이 Chat participant는 GitHub Pull Requests와 관련된 작업을 수행할 수 있습니다.
+- 마찬가지로, @githubpr 은 'GitHub Pull Requests' 확장 프로그램에서 제공하는 Chat participant입니다. 이 Chat participant는 GitHub Pull Requests와 관련된 작업을 수행할 수 있습니다. <br>
   <img src="img/12.png" width="400"> <br>
   <img src="img/13.png" width="400"> <br>
 

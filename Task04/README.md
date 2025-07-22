@@ -7,7 +7,7 @@
   - Copilot을 통해 자동 코드 리뷰를 받는 구성을 하고, Copilot 자동 Code Review를 통해 코드 리뷰를 받아 봅니다. (프리미엄 리퀘스트 사용)
 
 ## 목표: 
-- 모델 사용시, Standard Model과 Premium Model의 차이, Premium 모델 사용시 기본 제공되는 사용량을 이해니다. 
+- 모델 사용시, Standard Model과 Premium Model의 차이, Premium 모델 사용시 기본 제공되는 사용량을 이해합니다. 
 - Agent 모드를 활용해 프로젝트를 생성해 봅니다.
 - (선택사항) GitHub MCP Server를 활용하여, Copilot Chat에서 GitHub 저장소에 Issue를 등록하는 방법을 익힙니다. (* GitHub.com 활용 불가시 Skip)
 - (선택사항) Coding Agent를 활용해 기능을 구현해 봅니다. (프리미엄 리퀘스트 사용)
