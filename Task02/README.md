@@ -11,7 +11,7 @@
 - Copilot Chat의 `Review and Comment` 기능을 활용하여, 코드에 대한 리뷰를 받아 봅니다.
 - `Review and Comment`에 Custom instruction을 제공하여, 원하는 형태로 리뷰를 받아 봅니다.
 
-## Step1 
+## Step 1: 가위, 바위, 보 게임 만들기 
 - Copilot Chat을 이용하여, 가위, 바위, 보 게임을 만들 수 있는 코드를 요청합니다.
 - 사용자가 가위,바위,보 중 하나를 선택하고, 컴퓨터와 대결하는 로직을 추가합니다.
 - 사용자가 선택한 가위, 바위, 보와 컴퓨터의 선택을 비교하여 승패를 결정하는 로직을 추가합니다.
@@ -25,7 +25,7 @@
 - 컴파일 후, 게임을 실행하여 결과를 출력 받아 봅니다.<br>
    <img src="img/02.png" alt="image" width="800"/><br>
 
-## Step 2 : Lizard, Spock 추가하기
+## Step 2: Lizard, Spock 추가하기
 - 만들어진 게임에 추가로 Lizard, Spock의 로직을 Copilot을 활용하여 추가합니다.<br>
    <img src="img/image.png" width="600"><br>
 - `choices` 리스트에 Lizard와 Spock을 추가합니다.<br>

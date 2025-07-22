@@ -18,9 +18,9 @@
 - 파일 - New window를 선택하고, 다운로드 받아 압축 해제한 폴더를 선택합니다.<br>
  <img src="img/33.png" width="400"> <br>
 
-- Google Test를 로컬에 설치합니다. `/src/external` 디렉토리에 Google Test를 설치합니다.
+- Google Test를 로컬 `/src/external` 디렉토리에 Google Test를 설치합니다.
 
- - `git clone https://github.com/google/googletest.git` 
+  - `git clone https://github.com/google/googletest.git` 
 
 ## Step 1: Custom instructions 생성
 - [Custom instructions 설명](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/custom-instructions/adding-repository-custom-instructions-for-github-copilot?versionId=enterprise-cloud%40latest&tool=jetbrains#about-repository-custom-instructions-for-github-copilot-chat)
@@ -45,9 +45,40 @@
 	- 예시로 제공된 파일을 참고하여, 프로젝트에 맞는 지침을 작성합니다.
 	- [copilot-instructions예](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/custom-instructions/adding-repository-custom-instructions-for-github-copilot?tool=vscode#repository-custom-instructions-example) <br>
 
-	- <참고> VS Code의 설정 메뉴에서 관련 설정 <br>
-		<img src="img/01.png" width="600"> <br>
-		<img src="img/02.png" width="800"><br>
+````markdown
+# Project Overview
+
+This project is a web application that allows users to manage their tasks and to-do lists. It is built using React and Node.js, and uses MongoDB for data storage.
+
+## Folder Structure
+
+- `/src`: Contains the source code for the frontend.
+- `/server`: Contains the source code for the Node.js backend.
+- `/docs`: Contains documentation for the project, including API specifications and user guides.
+
+## Libraries and Frameworks
+
+- React and Tailwind CSS for the frontend.
+- Node.js and Express for the backend.
+~	- MongoDB for data storage.
+
+## Coding Standards
+
+- Use semicolons at the end of each statement.
+- Use single quotes for strings.
+- Use function based components in React.
+- Use arrow functions for callbacks.
+
+## UI guidelines
+
+- A toggle is provided to switch between light and dark mode.
+- Application should have a modern and clean design.
+```
+
+
+  - <참고> VS Code의 설정 메뉴에서 관련 설정 <br>
+	<img src="img/01.png" width="600"> <br>
+	<img src="img/02.png" width="800"><br>
 
 	### 1-2. `.instructions.md` 파일 생성
 	- 특정 작업에 대한 사용자 정의 지침을 저장하기 위해 하나 이상의 `.instructions.md` 파일을 생성할 수 있습니다. 예를 들어, 다양한 프로그래밍 언어, 프레임워크 또는 프로젝트 유형에 대한 지침 파일을 생성할 수 있습니다. VS Code는 모든 채팅 요청에 지침 파일을 자동으로 추가하거나, 특정 파일에 대해 지침이 자동으로 적용되도록 지정할 수 있습니다. 또는 채팅 프롬프트에 지침 파일을 수동으로 첨부할 수도 있습니다.
